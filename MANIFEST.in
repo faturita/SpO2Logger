@@ -1,0 +1,12 @@
+include README.rst
+include AUTHORS
+include HISTORY.rst
+include LICENSE
+include MANIFEST.in
+recursive-include sketches *
+recursive-include docs *
+recursive-include tests *
+recursive-include mock-data *
+recursive-include tools *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
